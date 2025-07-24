@@ -13,7 +13,7 @@ printf("Inside swapValue -a: %d, b:%d\n",a,b);
 void swapRef(int *a,int *b){
 int temp;
 temp =*a;
-*a =*?b;
+*a =*b;
 *b =temp;
 //Swaps actual varibles using pointers
 }
